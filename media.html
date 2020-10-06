@@ -21,8 +21,8 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-		      <li class="nav-item active">
-		        <a class="nav-link h4 text-info font-weight-bold border-bottom border-info" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+		      <li class="nav-item">
+		        <a class="nav-link h4 text-body font-weight-bold" href="index.html">Accueil</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link h4 text-body font-weight-bold" href="histoire.html">Un peu d'histoire</a>
@@ -30,8 +30,8 @@
 		      <li class="nav-item">
 		        <a class="nav-link h4 text-body font-weight-bold" href="geographie.html">Les meilleurs spots</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link h4 text-body font-weight-bold" href="media.html">Photos et Vidéos</a>
+		      <li class="nav-item  active">
+		        <a class="nav-link h4 text-info font-weight-bold border-bottom border-info" href="media.html">Photos et Vidéos<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link h4 text-body font-weight-bold" href="#">Me Contacter</a>
@@ -45,13 +45,29 @@
     <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Les photos</h1><br>   
+            <h1>Les photos</h1><br> 
+
+
+
+<div class=carouselcontrol>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" id="controlprev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" id="controlnext">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+
+              
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-              <ol class="carousel-indicators">
+              <!-- <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-              </ol>
+              </ol> -->
               <div class="carousel-inner">   
                 <div class="carousel-item active">
                   <div class="row">
@@ -164,15 +180,17 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              </div>
+              <!-- <div class=carouselcontrol>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev" id="controlprev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next" id="controlnext">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div> 
         </div>
@@ -180,11 +198,11 @@
           <div class="col-md-12">
             <h1>Les videos</h1><br>    
             <div id="carouselExampleCaptions2" class="carousel slide carousel-fade" data-ride="carousel">
-              <ol class="carousel-indicators">
+             <!--  <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions2" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions2" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions2" data-slide-to="2"></li>
-              </ol>
+              </ol> -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="" class="d-block w-100" alt="...">
