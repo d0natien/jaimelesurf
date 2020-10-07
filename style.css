@@ -27,7 +27,7 @@ body{
 }
 
 #blocpage{
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	padding-top: 2em;
 }
@@ -69,13 +69,14 @@ footer li{
 	padding: 0px;
 }*/
 
-/*#controlnext{
-	opacity: 1;
-	right: -80px;
-}
-
-#controlprev{
-	opacity: 1;
-	margin-left: -80px;
+/*.carousel-coontrol-next {
+opacity: 1;
+width: 50px;
+top: 70px;
 }*/
 
+/*#controlprev .carousel-control-prev{
+	opacity: 1;
+	left: -65px;
+}
+*/
